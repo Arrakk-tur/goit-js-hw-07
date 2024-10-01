@@ -84,3 +84,28 @@ h2 {
   height: 100%;
   border-radius: 8px;
 }
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 16px 0 0 0;
+}
+
+#name-output {
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
