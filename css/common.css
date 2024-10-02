@@ -212,3 +212,68 @@ button:hover {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+#controls {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 16px;
+  width: 486px;
+  height: 104px;
+  background: #f6f6fe;
+  border-radius: 8px;
+}
+
+#controls button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#controls button[data-create] {
+  background: #4e75ff;
+}
+
+#controls button[data-create]:hover {
+  background: #3a5ed0;
+}
+
+#controls button[data-destroy] {
+  background: #ff4e4e;
+}
+
+#controls button[data-destroy]:hover {
+  background: #d03a3a;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 10px;
+  width: 486px;
+  height: 134px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+#boxes div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #799cd2;
+  flex: 1 1 calc(20% - 16px);
+  max-width: calc(20% - 16px);
+}
