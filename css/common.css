@@ -263,7 +263,6 @@ button:hover {
   padding: 32px;
   gap: 10px;
   width: 486px;
-  height: 134px;
   background: #f6f6fe;
   border-radius: 8px;
   margin-top: 16px;
@@ -274,6 +273,4 @@ button:hover {
   justify-content: center;
   align-items: center;
   background-color: #799cd2;
-  flex: 1 1 calc(20% - 16px);
-  max-width: calc(20% - 16px);
 }
