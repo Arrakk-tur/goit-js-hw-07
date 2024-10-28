@@ -27,13 +27,14 @@ const images = [
 
 const galleryContainer = document.querySelector("ul.gallery");
 
+let galleryHTML = "";
+
 images.forEach((image) => {
-  const listItem = document.createElement("li");
-  const imageElement = document.createElement("img");
-
-  imageElement.src = image.url;
-  imageElement.alt = image.alt;
-
-  listItem.appendChild(imageElement);
-  galleryContainer.appendChild(listItem);
+  galleryHTML += `
+    <li>
+      <img src="${image.url}" alt="${image.alt}">
+    </li>
+  `;
 });
+
+galleryContainer.innerHTML = galleryHTML;
